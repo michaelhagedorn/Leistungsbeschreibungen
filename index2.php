@@ -6,7 +6,7 @@
  * and open the template in the editor.
  */
 
-echo "added some php";
+echo "added some php and edited it";
 
 ?>
 
