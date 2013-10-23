@@ -1,8 +1,6 @@
 <?php
 
 include 'library.php';
-//add1
-
 ?>
 <script language="Javascript">
 function xmlhttpPost(strURL, toElement, nextUrl, nextTo) {
