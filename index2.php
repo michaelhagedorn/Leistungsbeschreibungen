@@ -6,6 +6,8 @@
  * and open the template in the editor.
  */
 
+echo "added some php";
+
 ?>
 
 Index2.php just for testing
