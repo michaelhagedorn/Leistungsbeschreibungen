@@ -2,7 +2,7 @@
 
 class c_ajax {
     
-	function __construct() {
+	function __construct($ID) {
 		$this->update_db_field_and_return('tasks', 'task_time', '120', 'task_id', '19');
 	}
 	
