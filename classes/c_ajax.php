@@ -2,7 +2,7 @@
 
 class c_ajax {
     
-	function __construct($ID) {
+	function __construct() {
 		// added Comment
 		$this->update_db_field_and_return('tasks', 'task_time', '120', 'task_id', '19');
 	}
@@ -15,6 +15,6 @@ class c_ajax {
 
 function dig()
 {
-    
+  echo "added";  
 }
 ?>
