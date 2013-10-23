@@ -1,16 +1,7 @@
 <?php
 
-#doc
-#	classname:	c_task
-#	scope:		PUBLIC
-#
-#/doc
-
-
-
 class c_task 
 {
-	#	internal variables
 	var $task_id 	= false;
 	var $task_description = false;
 	var $task_activity = false;
@@ -24,7 +15,6 @@ class c_task
 	var $intTaskMaxTextLength;
 	var $intTaskMaxTextLengthDB;
 	
-	#	Constructor
 	function __construct ($task_id)
 	{
 
@@ -40,8 +30,7 @@ class c_task
 			echo DEBUG ? "[intTaskMaxTextLength]{".$this->intTaskMaxTextLength."}" : FALSE; // Debugging wenn DEBUG = true
 			// sollte es die task_id geben wird sie geladen
 			$this->check_task_id($task_id) && $this->load_task($task_id);						
-		}
-		
+		}		
 	}
 
 	public function load_task($task_id)
@@ -64,15 +53,9 @@ class c_task
 		$this->intTaskMaxTextLength = ( $this->intTaskMaxTextLength < $this->intTaskActivityTextLength) ? $this->intTaskActivityTextLength : $this->intTaskMaxTextLength;
 		$this->intTaskMaxTextLength = ( $this->intTaskMaxTextLength < $this->intTaskDescriptionTextLength) ? $this->intTaskDescriptionTextLength : $this->intTaskMaxTextLength;
 		($this->intTaskMaxTextLength > $this->intTaskMaxTextLengthDB) ? $this->config_update_intTaskMaxTextLength($this->intTaskMaxTextLength) : FALSE;
-		
-		
 	}
-	###
-	
-	
-	
-	
-	private function check_task_id($task_id)
+
+        private function check_task_id($task_id)
 	{
 		// Globale Datenbankverbinfung verfügbar machen		
 		global $db;
@@ -120,7 +103,6 @@ class c_task
 			echo "<br>Task Description:<b>".$this->task_description."</b>";
 			echo "<br>Task Activity:<b>".$this->task_activity."</b>";
 			echo "<br>Task Author:<b>".$this->task_author_name."</b>";
-
 		}
 	}
 
@@ -145,6 +127,4 @@ class c_task
 		$input->print_options($tasks,$selected,1,TRUE);
         }
 }
-###
-
 ?>
