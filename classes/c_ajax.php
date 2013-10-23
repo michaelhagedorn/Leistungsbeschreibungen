@@ -15,6 +15,7 @@ class c_ajax {
 
 function dig()
 {
-  echo "added";  
+  echo "added";
+  // added comment after commitment of %ID in browser
 }
 ?>
