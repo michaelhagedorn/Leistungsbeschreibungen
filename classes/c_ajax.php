@@ -12,4 +12,9 @@ class c_ajax {
 		//echo $SQL;		
 	}
 }
+
+function dig()
+{
+    
+}
 ?>
