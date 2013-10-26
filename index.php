@@ -60,12 +60,7 @@ function update(str, toElement){
   <input value="Go" type="button" onclick='JavaScript:xmlhttpPost("ajax/ajax_update.php")'></p>
   <div id="result"></div>
 </form>
-
-
-
 <?php
-
-
 // ############################################AJAX
 // Umwandlung der Umgebungsvariablen und setzen der defaults
 if (isset($_GET['task'])){ $session->set_var('task',$_GET['task']); } else { $session->set_var('task', DEFAULT_intTask); }
