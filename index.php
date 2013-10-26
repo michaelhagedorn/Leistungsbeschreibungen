@@ -52,7 +52,7 @@ function update(str, toElement){
 <hr>
 <input id="feld1" name="feld1" size="10" value="233">
 <br>
-testinput ser
+testinput ser2
 <hr>
 
   <p>word: <input name="word" type="text">  
