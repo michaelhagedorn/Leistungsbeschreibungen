@@ -53,9 +53,7 @@ function update(str, toElement){
 <hr>
 <input id="feld1" name="feld1" size="10" value="233">
 <br>
-
 <hr>
-
   <p>word: <input name="word" type="text">  
   <input value="Go" type="button" onclick='JavaScript:xmlhttpPost("ajax/ajax_update.php")'></p>
   <div id="result"></div>
