@@ -53,19 +53,12 @@ function update(str, toElement){
 <hr>
 <input id="feld1" name="feld1" size="10" value="233">
 <br>
-
 <hr>
-
   <p>word: <input name="word" type="text">  
   <input value="Go" type="button" onclick='JavaScript:xmlhttpPost("ajax/ajax_update.php")'></p>
   <div id="result">RESULT</div>
 </form>
-
-
-
 <?php
-
-
 // ############################################AJAX
 // Umwandlung der Umgebungsvariablen und setzen der defaults
 if (isset($_GET['task'])){ $session->set_var('task',$_GET['task']); } else { $session->set_var('task', DEFAULT_intTask); }
