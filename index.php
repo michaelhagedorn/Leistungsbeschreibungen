@@ -2,7 +2,7 @@
 
 // Um alle benötigten Klassen, Definitionen und Objekte zur Verfügung zu haben wird die Library eingebunden
 // in ihr werden all diese Dinge zusammengefasst
-// comitted22
+
 include 'library.php';
 
 ?>
@@ -58,7 +58,7 @@ function update(str, toElement){
 
   <p>word: <input name="word" type="text">  
   <input value="Go" type="button" onclick='JavaScript:xmlhttpPost("ajax/ajax_update.php")'></p>
-  <div id="result"></div>
+  <div id="result">RESULT</div>
 </form>
 
 
