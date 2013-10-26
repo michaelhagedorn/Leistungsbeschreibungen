@@ -2,7 +2,7 @@
 
 // Um alle benötigten Klassen, Definitionen und Objekte zur Verfügung zu haben wird die Library eingebunden
 // in ihr werden all diese Dinge zusammengefasst
-// comitted2
+// comitted22
 include 'library.php';
 
 ?>
