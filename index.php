@@ -2,7 +2,6 @@
 
 // Um alle benötigten Klassen, Definitionen und Objekte zur Verfügung zu haben wird die Library eingebunden
 // in ihr werden all diese Dinge zusammengefasst
-// comittedser
 include 'library.php';
 
 ?>
@@ -53,7 +52,7 @@ function update(str, toElement){
 <hr>
 <input id="feld1" name="feld1" size="10" value="233">
 <br>
-
+testinput ser
 <hr>
 
   <p>word: <input name="word" type="text">  
